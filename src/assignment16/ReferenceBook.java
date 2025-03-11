@@ -13,9 +13,7 @@ public class ReferenceBook extends Book {
     }
 
     public ReferenceBook() {
-        super("", "", new Date(), 0.0, 0.0);
-        this.tax = 0.0;
-
+        
     }
 
     public double getTax() {
