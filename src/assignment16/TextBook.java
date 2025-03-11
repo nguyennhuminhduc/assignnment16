@@ -14,9 +14,7 @@ public class TextBook extends Book {
     }
 
     public TextBook() {
-        super("", "", new Date(), 0.0, 0.0);
-        this.status = "";
-
+        
     }
 
     public String getStatus() {
