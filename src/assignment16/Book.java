@@ -21,6 +21,9 @@ public abstract class Book implements IBook {
         this.quantity = quantity;
 
     }
+    public Book(){
+        
+    }
 
     public String getBookId() {
         return bookId;
